@@ -4,12 +4,14 @@ import LeftSide from "./components/LeftSide";
 import RightSide from "./components/RightSide";
 import { motion } from "framer-motion";
 import Hero from "./components/Hero";
+import About from "./components/About";
+import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div className="w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden overflow-y-scroll">
+    <div className="w-full min-h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden overflow-y-scroll">
       <Navbar />
-      <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
+      <div className="w-full min-h-screen xl:flex items-start gap-20 justify-between">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -18,14 +20,19 @@ function App() {
         >
           <LeftSide />
         </motion.div>
-        <div className="h-[88vh] mx-auto p-4">
+        <div className="flex-1 mx-auto p-4">
           <Hero />
+          <About />
+          <Skills />
+          {/* Projects */}
+          {/* Assessments */}
         </div>
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5 }}
-          className="hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0">
+          className="hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0"
+        >
           <RightSide />
         </motion.div>
       </div>

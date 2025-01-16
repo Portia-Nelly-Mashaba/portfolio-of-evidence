@@ -26,14 +26,29 @@ const Hero = () => {
           I build things for mobile and web.
         </span>
       </motion.h1>
-      <motion.p>
+      <motion.p
+        initial={{ y: 10, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.8 }}
+        className="text-base md:max-w-[650px] text-textDark font-medium"
+      >
         {" "}
         I am a passionate Mobile and Web Developer at Codetribe Tembisa. At
         Codetribe, we build innovative web and mobile applications using React
         and React Native. My expertise ensures seamless, user-friendly
         experiences. Welcome to my Portfolio of Evidence, showcasing my projects
-        and achievements.
-      </motion.p>{" "}
+        and achievements. <br />
+        <a href="#">
+          <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">pnpnelly@gmail.com | +27 78 152 6964
+          <span className="absolute w-full h-[2px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 translation-transform duration-500"></span>
+          </span>
+        </a>
+      </motion.p>
+      <motion.button 
+      initial={{ y: 10, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.5, delay: 0.9 }}
+      className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300">Check out my Projects!</motion.button>
     </div>
   );
 };

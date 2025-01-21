@@ -8,6 +8,9 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Archieve from "./components/Archieve";
+import Assessment from "./components/Assessment";
+import OtherInfo from "./components/OtherInfo";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -28,7 +31,9 @@ function App() {
           <Skills />
           <Projects />
           <Archieve />
-          {/* Assessments */}
+          <Assessment />
+          <OtherInfo />
+          <Footer />
         </div>
         <motion.div
           initial={{ opacity: 0 }}

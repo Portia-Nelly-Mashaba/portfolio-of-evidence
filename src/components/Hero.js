@@ -44,11 +44,7 @@ const Hero = () => {
           </span>
         </a>
       </motion.p>
-      <motion.button 
-      initial={{ y: 10, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.5, delay: 0.9 }}
-      className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300">Check out my Projects!</motion.button>
+      <motion.a href="#projects" initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.9 }} className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300 flex items-center justify-center" > Check out my Projects! </motion.a>
     </div>
   );
 };

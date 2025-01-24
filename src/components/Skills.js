@@ -3,29 +3,127 @@ import SectionTitle from "./SectionTitle";
 import ReactJs from "./skills/ReactJs";
 import ReactNative from "./skills/Native";
 import JavaScript from "./skills/JavaScript";
+import NodeJs from "./skills/NodeJS";
+import MongoDB from "./skills/MongoDB";
+import Firebase from "./skills/Firebase";
+import RestApi from "./skills/RestApi";
+import TailwindCSS from "./skills/TailwindCSS";
+import HtmlCss from "./skills/HtmlCss";
 
 const Skills = () => {
   const [skillReactJs, setSkillReactJs] = useState(true);
   const [skillReactNative, setSkillReactNative] = useState(false);
   const [skillJavaScript, setSkillJavaScript] = useState(false);
+  const [skillNode, setSkillNode] = useState(false);
+  const [skillMongoDB, setSkillMongoDB] = useState(false);
+  const [skillFirebase, setSkillFirebase] = useState(false);
+  const [skillRestApi, setSkillRestApi] = useState(false);
+  const [skillTailwindCSS, setSkillTailwindCSS] = useState(false);
+  const [skillHtmlCss, setSkillHtmlCss] = useState(false);
 
   const handleReactJs = () => {
     setSkillReactJs(true);
     setSkillReactNative(false);
     setSkillJavaScript(false);
+    setSkillNode(false);
+    setSkillMongoDB(false);
+    setSkillFirebase(false);
+    setSkillRestApi(false);
+    setSkillTailwindCSS(false);
+    setSkillHtmlCss(false);
   };
 
   const handleReactNative = () => {
     setSkillReactJs(false);
     setSkillReactNative(true);
     setSkillJavaScript(false);
+    setSkillNode(false);
+    setSkillMongoDB(false);
+    setSkillFirebase(false);
+    setSkillRestApi(false);
+    setSkillTailwindCSS(false);
+    setSkillHtmlCss(false);
   };
 
   const handleJavaScript = () => {
     setSkillReactJs(false);
     setSkillReactNative(false);
     setSkillJavaScript(true);
+    setSkillNode(false);
+    setSkillMongoDB(false);
+    setSkillFirebase(false);
+    setSkillRestApi(false);
+    setSkillTailwindCSS(false);
+    setSkillHtmlCss(false);
   };
+
+  const handleNode = () => {
+    setSkillReactJs(false);
+    setSkillReactNative(false);
+    setSkillJavaScript(false);
+    setSkillNode(true);
+    setSkillMongoDB(false);
+    setSkillFirebase(false);
+    setSkillRestApi(false);
+    setSkillTailwindCSS(false);
+    setSkillHtmlCss(false);
+  };
+  const handleMongoDB = () => {
+    setSkillReactJs(false);
+    setSkillReactNative(false);
+    setSkillJavaScript(false);
+    setSkillNode(false);
+    setSkillMongoDB(true);
+    setSkillFirebase(false);
+    setSkillRestApi(false);
+    setSkillTailwindCSS(false);
+    setSkillHtmlCss(false);
+  };
+  const handleFirebase = () => {
+    setSkillReactJs(false);
+    setSkillReactNative(false);
+    setSkillJavaScript(false);
+    setSkillNode(false);
+    setSkillMongoDB(false);
+    setSkillFirebase(true);
+    setSkillRestApi(false);
+    setSkillTailwindCSS(false);
+    setSkillHtmlCss(false);
+  };
+  const handleRestApi = () => {
+    setSkillReactJs(false);
+    setSkillReactNative(false);
+    setSkillJavaScript(false);
+    setSkillNode(false);
+    setSkillMongoDB(false);
+    setSkillFirebase(false);
+    setSkillRestApi(true);
+    setSkillTailwindCSS(false);
+    setSkillHtmlCss(false);
+  };
+  const handleTailwindCSS = () => {
+    setSkillReactJs(false);
+    setSkillReactNative(false);
+    setSkillJavaScript(false);
+    setSkillNode(false);
+    setSkillMongoDB(false);
+    setSkillFirebase(false);
+    setSkillRestApi(false);
+    setSkillTailwindCSS(true);
+    setSkillHtmlCss(false);
+  };
+  const handleHtmlCss = () => {
+    setSkillReactJs(false);
+    setSkillReactNative(false);
+    setSkillJavaScript(false);
+    setSkillNode(false);
+    setSkillMongoDB(false);
+    setSkillFirebase(false);
+    setSkillRestApi(false);
+    setSkillTailwindCSS(false);
+    setSkillHtmlCss(true);
+  };
+
 
   return (
     <div id="skills" className="max-w-containerxs mx-auto py-10 lgl:py-24 px-4">
@@ -65,28 +163,81 @@ const Skills = () => {
           >
             JavaScript
           </li>
-          <li className="border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium">
+          <li 
+                      onClick={handleNode}
+                      className={`${
+                          skillNode
+                            ? "border-l-2 border-l-textGreen text-textGreen"
+                            : "border-l-2 border-l-hoverColor text-textDark"
+                        } bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+                      >
             Node JS
           </li>
-          <li className="border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium">
+          <li
+            onClick={handleMongoDB}
+            className={`${
+                skillMongoDB
+                  ? "border-l-2 border-l-textGreen text-textGreen"
+                  : "border-l-2 border-l-hoverColor text-textDark"
+              } bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+              
+          >
             MongoDB
           </li>
-          <li className="border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium">
+          <li
+            onClick={handleFirebase}
+            className={`${
+                skillFirebase
+                  ? "border-l-2 border-l-textGreen text-textGreen"
+                  : "border-l-2 border-l-hoverColor text-textDark"
+              } bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+              
+          >
             Firebase
           </li>
-          <li className="border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium">
+          <li
+            onClick={handleRestApi}
+            className={`${
+                skillRestApi
+                  ? "border-l-2 border-l-textGreen text-textGreen"
+                  : "border-l-2 border-l-hoverColor text-textDark"
+              } bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+              
+          >
             Rest API
           </li>
-          <li className="border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium">
+          <li
+            onClick={handleTailwindCSS}
+            className={`${
+                skillTailwindCSS
+                  ? "border-l-2 border-l-textGreen text-textGreen"
+                  : "border-l-2 border-l-hoverColor text-textDark"
+              } bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+              
+          >
             TailwindCSS
           </li>
-          <li className="border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium">
+          <li
+            onClick={handleHtmlCss}
+            className={`${
+                skillHtmlCss
+                  ? "border-l-2 border-l-textGreen text-textGreen"
+                  : "border-l-2 border-l-hoverColor text-textDark"
+              } bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+              
+          >
             HTML&CSS
           </li>
         </ul>
         {skillReactJs && <ReactJs />}
         {skillReactNative && <ReactNative />}
         {skillJavaScript && <JavaScript />}
+        {skillNode && <NodeJs />}
+        {skillMongoDB && <MongoDB />}
+        {skillFirebase && <Firebase />}
+        {skillRestApi && <RestApi />}
+        {skillTailwindCSS && <TailwindCSS />}
+        {skillHtmlCss && <HtmlCss />}
       </div>
     </div>
   );

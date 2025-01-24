@@ -35,32 +35,40 @@ const Assessment = () => {
                   Git Link
                 </a>
               </td>
-              <td className="border-b border-gray-300 p-2 md:p-3">Date</td>
-              <td className="border-b border-gray-300 p-2 md:p-3">85%</td>
+              <td className="border-b border-gray-300 p-2 md:p-3">31/07/2024</td>
+              <td className="border-b border-gray-300 p-2 md:p-3">N/A</td>
               <td className="border-b border-gray-300 p-2 md:p-3">
-                Above average.
+                UI Challenge
               </td>
             </tr>
             <tr>
               <td className="border-b border-gray-300 p-2 md:p-3">
                 MarketPlace
               </td>
-              <td className="border-b border-gray-300 p-2 md:p-3">N/A</td>
-              <td className="border-b border-gray-300 p-2 md:p-3">Date</td>
-              <td className="border-b border-gray-300 p-2 md:p-3">90%</td>
               <td className="border-b border-gray-300 p-2 md:p-3">
-                Excellent understanding of basics.
+                <a href="Url" target="_blank" className="text-textGreen">
+                  Git Link
+                </a>
+              </td>
+              <td className="border-b border-gray-300 p-2 md:p-3">02/11/2024</td>
+              <td className="border-b border-gray-300 p-2 md:p-3">N/A</td>
+              <td className="border-b border-gray-300 p-2 md:p-3">
+                Ecommerce App
               </td>
             </tr>
             <tr>
               <td className="border-b border-gray-300 p-2 md:p-3">
                 Travel Weather
               </td>
-              <td className="border-b border-gray-300 p-2 md:p-3">N/A</td>
-              <td className="border-b border-gray-300 p-2 md:p-3">Date</td>
+              <td className="border-b border-gray-300 p-2 md:p-3">
+                <a href="Url" target="_blank" className="text-textGreen">
+                  Git Link
+                </a>
+              </td>
+              <td className="border-b border-gray-300 p-2 md:p-3">21/01/2025</td>
               <td className="border-b border-gray-300 p-2 md:p-3">N/A</td>
               <td className="border-b border-gray-300 p-2 md:p-3">
-                Completed an external course.
+                Collaboration Project
               </td>
             </tr>
           </tbody>

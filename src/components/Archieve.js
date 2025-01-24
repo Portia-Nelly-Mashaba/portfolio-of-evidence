@@ -18,13 +18,13 @@ const Archieve = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchieveCard
           title="Shopping List App"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          desc="Users can add shopping lists, specify quantities, and perform CRUD operations. It is an efficient and convenient app with everything saved on local storage."
           listItem={["ReactNative", "CSS", "REST API"]}
         />
 
         <ArchieveCard
           title="Gallery App"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          desc="App allows user to capture memories by adding the name, image, and location of places they visit. The app supports CRUD functions, and everything is saved on the database."
           listItem={["ReactNative", "CSS", "SQLITE", "Google API"]}
         />
 

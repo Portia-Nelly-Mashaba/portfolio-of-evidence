@@ -33,7 +33,7 @@ const Hero = () => {
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
         {" "}
-        I am a passionate Mobile and Web Developer at  <span className="text-textGreen">Codetribe Tembisa.</span> At
+        I am a passionate Mobile and Web Developer at  <span className="text-textGreen">CodeTribe Tembisa.</span> At
         Codetribe, we build innovative web and mobile applications using React
         and React Native. My expertise ensures seamless, user-friendly
         experiences. Welcome to my Portfolio of Evidence, showcasing my projects

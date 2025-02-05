@@ -12,6 +12,7 @@ const Projects = () => {
       <SectionTitle title="My Projects @CodeTribe" titleNo="03" />
       <div className="w-full flex flex-col items-center justify-between gap-28 mt-10">
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+        
         {" "}
         {/* items-center justify-center */}
         <div className="flex flex-col xl:flex-row gap-6">
@@ -63,12 +64,13 @@ const Projects = () => {
           </div>
         </div>
       </div>
+
       {/* Projects two */}
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://github.com/Portia-Nelly-Mashaba/Hotel-App-v2.git"
+            href="https://github.com/Portia-Nelly-Mashaba/MERN-Recipe-App-.git"
             target="_blank"
             alt="Hotel-App"
           >
@@ -121,9 +123,9 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://github.com/Portia-Nelly-Mashaba/Hotel-App-v2.git"
+            href="https://github.com/Portia-Nelly-Mashaba/Redux-Shopping-List.git"
             target="_blank"
-            alt="Hotel-App"
+            alt="MERN Recipe-App"
           >
             <div>
               <img
@@ -153,13 +155,13 @@ const Projects = () => {
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/Portia-Nelly-Mashaba/Hotel-App-v2.git"
+                href="https://github.com/Portia-Nelly-Mashaba/Redux-Shopping-List.git"
               >
                 <TbBrandGithub />
               </a>
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/Portia-Nelly-Mashaba/Hotel-App-v2.git"
+                href="https://github.com/Portia-Nelly-Mashaba/Redux-Shopping-List.git"
               >
                 <RxOpenInNewWindow />
               </a>

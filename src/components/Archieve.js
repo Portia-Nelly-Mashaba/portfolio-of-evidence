@@ -210,19 +210,19 @@ const Archieve = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchieveCard
           title="MarketPlace App"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          desc="A user-friendly marketplace app that connects buyers and sellers seamlessly, offering a secure and efficient way to discover, purchase, and sell items with ease."
           listItem={["ReactJS", "NodeJS", "MongoDB"]}
         />
 
         <ArchieveCard
           title="Travel Weather App"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          desc="A travel weather app predicting 7-day forecasts and suggesting activities based on the weather, ensuring users can make the most of their trips, regardless of the weather conditions."
           listItem={["ReactJS", "Google API", "CSS"]}
         />
 
         <ArchieveCard
           title="Restaurant App"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          desc="A restaurant reservation app that allows users to book tables, view menus, and receive personalized dining suggestions, ensuring enjoyable dining experience."
           listItem={["ReactNative", "MongoDB", "NodeJS"]}
         />
       </div>

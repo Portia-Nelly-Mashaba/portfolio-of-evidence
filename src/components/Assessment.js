@@ -31,7 +31,7 @@ const Assessment = () => {
                 Tip Calculator
               </td>
               <td className="border-b border-gray-300 p-2 md:p-3">
-                <a href="Url" target="_blank" className="text-textGreen">
+                <a href="https://github.com/Portia-Nelly-Mashaba/Code-Tribe.git" target="_blank" className="text-textGreen">
                   Git Link
                 </a>
               </td>
@@ -46,7 +46,7 @@ const Assessment = () => {
                 MarketPlace
               </td>
               <td className="border-b border-gray-300 p-2 md:p-3">
-                <a href="Url" target="_blank" className="text-textGreen">
+                <a href="https://github.com/Portia-Nelly-Mashaba/MERN-e-commerce.git" target="_blank" className="text-textGreen">
                   Git Link
                 </a>
               </td>
@@ -61,7 +61,7 @@ const Assessment = () => {
                 Travel Weather
               </td>
               <td className="border-b border-gray-300 p-2 md:p-3">
-                <a href="Url" target="_blank" className="text-textGreen">
+                <a href="https://github.com/Portia-Nelly-Mashaba/Weather-Based-Travel-Planner-with-API-Integration.git" target="_blank" className="text-textGreen">
                   Git Link
                 </a>
               </td>

@@ -105,13 +105,13 @@ const Projects = () => {
               <div className="text-2xl flex gap-4">
                 <a
                   className="hover:text-textGreen duration-300"
-                  href="https://github.com/Portia-Nelly-Mashaba/MERN-Recipe-App-.git"
+                  href="https://github.com/Portia-Nelly-Mashaba/New-Recipe-App.git"
                 >
                   <TbBrandGithub />
                 </a>
                 <a
                   className="hover:text-textGreen duration-300"
-                  href="https://github.com/Portia-Nelly-Mashaba/MERN-Recipe-App-.git"
+                  href="https://github.com/Portia-Nelly-Mashaba/New-Recipe-App.git"
                 >
                   <RxOpenInNewWindow />
                 </a>

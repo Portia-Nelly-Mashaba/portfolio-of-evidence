@@ -145,4 +145,3 @@ Portfolio created for showcasing professional work and skills.
 
 ---
 
-**Note**: The screenshot images (Home.png, about.png, skills.png, projects.png) should be placed in the `src/assets/` directory. If your image filenames differ, please update the paths in this README accordingly.

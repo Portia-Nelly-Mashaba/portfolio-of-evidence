@@ -4,17 +4,18 @@ A modern, responsive portfolio website built with React showcasing skills, proje
 
 ## 📸 Screenshots
 
-![Home Page](src/assets/Home.png)
 *Home page with hero section and introduction*
+![Home Page](src/assets/home.png)
 
-![About Page](src/assets/about.png)
 *About section with personal information and background*
+![About Page](src/assets/about.png)
 
-![Skills Page](src/assets/skills.png)
 *Skills section displaying technical competencies*
+![Skills Page](src/assets/skills.png)
 
-![Projects Page](src/assets/projects.png)
 *Projects section showcasing completed work and applications*
+![Projects Page](src/assets/projects.png)
+
 
 ## 🚀 Features
 

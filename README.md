@@ -1,70 +1,147 @@
-# Getting Started with Create React App
+# Portfolio of Evidence
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website built with React showcasing skills, projects, and professional achievements. This portfolio demonstrates proficiency in modern web development technologies and design principles.
 
-## Available Scripts
+## 📸 Screenshots
 
-In the project directory, you can run:
+![Home Page](src/assets/Home.png)
+*Home page with hero section and introduction*
+
+![About Page](src/assets/about.png)
+*About section with personal information and background*
+
+![Skills Page](src/assets/skills.png)
+*Skills section displaying technical competencies*
+
+![Projects Page](src/assets/projects.png)
+*Projects section showcasing completed work and applications*
+
+## 🚀 Features
+
+- **Responsive Design**: Fully responsive layout that works on all device sizes
+- **Modern UI/UX**: Clean and intuitive interface built with Tailwind CSS
+- **Smooth Animations**: Engaging animations powered by Framer Motion
+- **Interactive Navigation**: Easy-to-use navigation with React Router
+- **Project Showcase**: Display of portfolio projects with detailed information
+- **Skills Display**: Visual representation of technical skills and competencies
+- **Archive Section**: Additional projects and accomplishments
+- **Assessment & Other Info**: Sections for assessments and additional information
+
+## 🛠️ Technologies Used
+
+- **React 19.0.0**: Modern React with latest features
+- **React Router DOM 7.1.1**: Client-side routing
+- **Framer Motion 11.17.0**: Animation library for smooth transitions
+- **Tailwind CSS 3.4.17**: Utility-first CSS framework
+- **React Icons 5.4.0**: Icon library for React components
+- **React Scripts 5.0.1**: Build tooling for Create React App
+
+## 📦 Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd portfolio-of-evidence
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm start
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
+
+## 🏗️ Project Structure
+
+```
+portfolio-of-evidence/
+├── public/              # Static assets
+├── src/
+│   ├── assets/          # Images and media files
+│   │   ├── Home.png
+│   │   ├── about.png
+│   │   ├── skills.png
+│   │   ├── projects.png
+│   │   └── ...
+│   ├── components/      # React components
+│   │   ├── About.js
+│   │   ├── Hero.js
+│   │   ├── Skills.js
+│   │   ├── Projects.js
+│   │   ├── Navbar.js
+│   │   ├── Footer.js
+│   │   ├── LeftSide.js
+│   │   ├── RightSide.js
+│   │   └── skills/      # Skill-specific components
+│   ├── App.js           # Main application component
+│   └── index.js         # Entry point
+├── package.json
+├── tailwind.config.js   # Tailwind CSS configuration
+└── README.md
+```
+
+## 📜 Available Scripts
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Runs the app in development mode at [http://localhost:3000](http://localhost:3000). The page will reload automatically when you make changes.
 
 ### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in interactive watch mode.
 
 ### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Builds the app for production to the `build` folder. The build is optimized and minified for best performance.
 
 ### `npm run eject`
+**Note: This is a one-way operation!** Ejects from Create React App, giving you full control over configuration files.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🎨 Components
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Hero**: Landing section with introduction
+- **About**: Personal information and background
+- **Skills**: Technical skills display with interactive cards
+- **Projects**: Portfolio projects showcase
+- **Archieve**: Additional projects archive
+- **Assessment**: Assessment information section
+- **OtherInfo**: Additional information section
+- **Navbar**: Navigation bar
+- **Footer**: Footer with links and information
+- **LeftSide/RightSide**: Side navigation elements
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🔧 Configuration
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The project uses Tailwind CSS for styling. Configuration can be found in `tailwind.config.js`.
 
-## Learn More
+## 📱 Responsive Design
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The portfolio is fully responsive and optimized for:
+- Desktop (xl screens)
+- Tablets (md, lg screens)
+- Mobile devices (sm screens)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚢 Deployment
 
-### Code Splitting
+To deploy this portfolio:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Build the production version:
+```bash
+npm run build
+```
 
-### Analyzing the Bundle Size
+2. Deploy the `build` folder to your preferred hosting service (Vercel, Netlify, GitHub Pages, etc.)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📄 License
 
-### Making a Progressive Web App
+This project is private.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 👤 Author
 
-### Advanced Configuration
+Portfolio created for showcasing professional work and skills.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Note**: The screenshot images (Home.png, about.png, skills.png, projects.png) should be placed in the `src/assets/` directory. If your image filenames differ, please update the paths in this README accordingly.
